@@ -1,5 +1,7 @@
 body {
-    background-color: rgba(119, 67, 32, 0.842);
+    background: -moz-linear-gradient(#ffb03c, #ff708d);
+    background: -webkit-linear-gradient(#ffb03c, #ff708d);
+    background: linear-gradient(to right, #ffb03c, #ff708d);
     color: #FDFFFF;
     width: 500px;
     margin-right: auto;
@@ -7,7 +9,7 @@ body {
 }
 button {
     padding: 5px 20px;
-    background-color: #337AB7;
+    background-color: #5390d9;
     border-style: none;
     color: #FDFFFF;
 }

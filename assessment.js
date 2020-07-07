@@ -34,13 +34,14 @@ assessmentButton.onclick = () => {
     // TODO ツイートエリアの作成
     removeAllChildren(tweetDivided);
     const anchor = document.createElement('a');
-    const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag='
-        + encodeURIComponent('あなたの良いところ')
-        + '&ref_src=twsrc%5Etfw';
+    const hrefValue =
+        'https://twitter.com/intent/tweet?button_hashtag=' +
+        encodeURIComponent('あなたのいいところ') +
+        '&ref_src=twsrc%5Etfw';
         
     anchor.setAttribute('href', hrefValue);
     anchor.className = 'twitter-hashtag-button';
-    anchor.setAttribute('date-text', result);
+    anchor.setAttribute('data-text', result);
     anchor.innerText = 'Tweet #あなたの良いところ';
 
     tweetDivided.appendChild(anchor);
@@ -68,7 +69,7 @@ const answers = [
     '{userName}のいいところは気配りです。{userName}の配慮が多くの人を救っています。',
     '{userName}のいいところはその全てです。ありのままの{userName}自身がいいところなのです。',
     '{userName}のいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる{userName}が皆から評価されています。',
-    '{userName}のいいところは優しさです。あなたの優しい雰囲気や立ち振る舞いに多くの人が癒やされています。'
+    '{userName}のいいところは優しさです。あなたの優しい雰囲気や立ち振る舞いに多くの人が癒やされています。',
 ]
 
 /**
