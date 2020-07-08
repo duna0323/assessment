@@ -7,6 +7,9 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+body:hover{
+    background: rgb(97, 41, 41);
+}
 button {
     padding: 5px 20px;
     background-color: #5390d9;
