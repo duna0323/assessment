@@ -9,6 +9,13 @@ body {
 }
 body:hover{
     background: rgb(97, 41, 41);
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 button {
     padding: 5px 20px;
