@@ -35,7 +35,7 @@ assessmentButton.onclick = () => {
     removeAllChildren(tweetDivided);
     const anchor = document.createElement('a');
     const hrefValue =
-        'https://twitter.com/intent/tweet?url=https://duna0323.github.io/assessment/assessment.html&button_hashtag=' +
+        'https://twitter.com/intent/tweet?url=https://duna0323.github.io/assessment/assessment.html&amp;button_hashtag=' +
         encodeURIComponent('あなたのいいところ') +
         '&ref_src=twsrc%5Etfw';
         
