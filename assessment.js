@@ -43,6 +43,7 @@ assessmentButton.onclick = () => {
     anchor.className = 'twitter-hashtag-button';
     anchor.setAttribute('data-text', result);
     anchor.innerText = 'Tweet #あなたの良いところ';
+    anchor.setAttribute('src', 'https://duna0323.github.io/assessment/assessment.html');
 
     tweetDivided.appendChild(anchor);
     
