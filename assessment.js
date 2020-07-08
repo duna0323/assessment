@@ -37,7 +37,8 @@ assessmentButton.onclick = () => {
     const hrefValue =
         'https://twitter.com/intent/tweet?button_hashtag=' +
         encodeURIComponent('あなたのいいところ') +
-        '&ref_src=twsrc%5Etfw';
+        '&ref_src=twsrc%5Etfw' +
+        '&url='https://duna0323.github.io/assessment/assessment.html';
         
     anchor.setAttribute('href', hrefValue);
     anchor.className = 'twitter-hashtag-button';
